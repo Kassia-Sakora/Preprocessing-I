@@ -165,7 +165,7 @@ h1 {
   font-style: italic;
   color: #34233B;
 }
-.button {
+button {
   align-self: center;
   background-color: #E0D8E7;
   border-radius: 50%;
@@ -174,11 +174,13 @@ h1 {
   padding: 6px;
   margin-top: 4%;
 }
-@media (max-width: 500px) {
-  .button .button {
-    width: 90%;
-    border-radius: 20%;
-    padding: 12px;
+@media screen and (max-width: 500px) {
+  button {
+    width: 80%;
+    border-radius: 10%;
+    padding: 10px;
+    margin-bottom: 15%;
+    margin-top: 15%;
   }
 }
 .right {
@@ -191,12 +193,6 @@ h1 {
   font-size: 1.7rem;
   padding-bottom: 1%;
 }
-.right h3 {
-  font-weight: bold;
-  font-size: 1.3rem;
-  padding-top: 1%;
-  padding-bottom: 1.5%;
-}
 .button:hover {
   background-color: #34233B;
   color: #B765FF;
@@ -207,6 +203,12 @@ a {
 }
 a:hover {
   color: #B765FF;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
 }
 .screenshot {
   width: 50%;

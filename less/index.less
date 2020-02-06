@@ -100,7 +100,7 @@ h1 {
 	color: @color;
 }
 
-.button {
+button {
 	align-self: @align;
 	background-color: @bgcolor;
 	border-radius: 50%;
@@ -109,12 +109,12 @@ h1 {
 	padding: 6px;
 	margin-top: 4%;
 
-	@media (max-width: 500px) {
-		.button {
-			width: 90%;
-			border-radius: 20%;
-			padding: 12px;
-		}
+	@media screen and (max-width: 500px) {
+		width: 80%;
+		border-radius: 10%;
+		padding: 10px;
+		margin-bottom: 15%;
+    	margin-top: 15%;
 	}
 }
 
@@ -126,12 +126,6 @@ h1 {
 		font-weight: bold;
 		font-size: 1.7rem;
 		padding-bottom: 1%;
-	}
-	h3 {
-		font-weight: bold;
-		font-size: 1.3rem;
-		padding-top: 1%;
-		padding-bottom: 1.5%;
 	}
 }
 
@@ -149,9 +143,12 @@ a:hover {
 	color: @link;
 	}
 
-
-
-
+h3 {
+		font-weight: bold;
+		font-size: 1.3rem;
+		padding-top: 1%;
+		padding-bottom: 1.5%;
+	}
 
 .screenshot {
 	width: 50%;
@@ -166,6 +163,7 @@ a:hover {
 	padding-top: 1%;
 	margin-left: 32%;
 	padding-right: 2.5%;
+	
 }
 
 .copy {
