@@ -1,1 +1,235 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: #E0D8E7;
+  color: #34233B;
+  font-size: 1.15rem;
+}
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  background-color: #BEB1C3;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+.sidenav .image {
+  align-self: center;
+  width: 65%;
+  height: auto;
+  border: 4px ridge #817088;
+}
+h1 {
+  align-self: center;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #34233B;
+}
+.title {
+  align-self: center;
+  font-style: italic;
+  color: #34233B;
+}
+button {
+  align-self: center;
+  background-color: #E0D8E7;
+  border-radius: 50%;
+  width: 25%;
+  border: 2px solid #34233B;
+  padding: 6px;
+  margin-top: 4%;
+}
+@media screen and (max-width: 500px) {
+  button {
+    width: 80%;
+    border-radius: 10%;
+    padding: 10px;
+    margin-bottom: 15%;
+    margin-top: 15%;
+  }
+}
+.right {
+  padding-top: 1%;
+  margin-left: 32%;
+  padding-right: 2.5%;
+}
+.right h2 {
+  font-weight: bold;
+  font-size: 1.7rem;
+  padding-bottom: 1%;
+}
+.button:hover {
+  background-color: #34233B;
+  color: #B765FF;
+}
+a {
+  text-decoration: none;
+  color: #34233B;
+}
+a:hover {
+  color: #B765FF;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+}
+.screenshot {
+  width: 50%;
+  height: auto;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  margin-left: 32%;
+  padding-right: 2.5%;
+}
+.copy {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+.bold {
+  font-weight: bold;
+}
